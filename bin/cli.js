@@ -6,11 +6,10 @@ const program = require('commander');
 const version = require('../package.json').version;
 const ncp = require('ncp').ncp;
 const cwd = process.cwd();
-const source = './lib/template';
+const source = path.join(__dirname, '../lib/template');
 
 function creator (val) {
     const target = path.join(cwd, val);
-    console.log(target);
     ncp(source, target, (err) => {
         if (err) return console.error(err);
         console.log('🚀  have fun!');
