@@ -1,0 +1,25 @@
+{
+  "name": "jetpack-cli",
+  "version": "0.1.0",
+  "description": "A front-end project boilerplate generator",
+  "bin": {
+    "jetpack": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "bin/cli.js"
+  },
+  "keywords": [
+    "babel",
+    "vue",
+    "generator"
+  ],
+  "author": "dongxu <dongxu@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ncp": "^2.0.0"
+  }
+}
