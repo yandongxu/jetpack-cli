@@ -1,0 +1,5 @@
+@import "partials/base";
+
+body {
+  background: url(../images/jetpack.jpg) no-repeat 50% 50%;
+}
